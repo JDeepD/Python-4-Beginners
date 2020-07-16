@@ -1,3 +1,6 @@
+
+#Fibonacci series can be generated in many ways. This code generates a Fibonacci Series using Recursion.
+
 def recursive_fibo(x):
     if x<=1:
         return x
@@ -7,4 +10,4 @@ def recursive_fibo(x):
 a=int(input("Enter the no. of Terms"))
 for i in range(a):
     print(recursive_fibo(i))
-ex=input("Press Enter To Exit")    
+ex=input("Press Enter To Exit")     #Can be ommited if code is executed in python IDLE
