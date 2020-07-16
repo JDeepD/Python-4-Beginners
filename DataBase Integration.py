@@ -1,16 +1,21 @@
-import sqlite3
+import sqlite3   #Module for connecting to the database (.db) file
 
+'''
+Database connection is achieved in 3 steps:
+1. Connect to the database.
+2. Make a cursor object to execute SQL commands using python
+3. Query about data and commit changes if any using the .commit() function.
+'''
 class make_db:
-	def __init__(self,dbname):
+	def __init__(self,dbname):         
 		self.dbname = dbname
 		self.mydb = sqlite3.connect(self.dbname + '.db')
 
 		self.cursor = self.mydb.cursor()
 
-		self.cursor.execute("""CREATE TABLE IF NOT EXISTS DATA(
-										QUESTION TEXT,
-										RESULT TEXT )
-										""")
+		self.cursor.execute("""CREATE TABLE IF NOT EXISTS DATA(QUESTION TEXT,RESULT TEXT""")
+										
+										
 	def store_values(self,QUESTION,RESPONSE):
 		self.cursor.execute("INSERT INTO DATA VALUES(:qn , :response)",{'qn':QUESTION , 'response' : RESPONSE })
 		self.mydb.commit()
