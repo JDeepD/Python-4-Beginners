@@ -1,3 +1,6 @@
+#Brute force approach of finding LCM of two numbers.
+#Algo : Multiply the larger number with all the numbers in the range of (1,smaller number) to check if any multiple has factors as both the smaller number and larger number.
+
 def lcm(a,b):
 	if b > a :
 		for i in range(1,a+1):
