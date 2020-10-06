@@ -2,16 +2,7 @@
 #Check out his website : https://codexwithmastermind.wixsite.com/codex
 
 def check_leap(year):
-    if year % 4 == 0:
-        if year % 100 == 0:
-            if year % 400 == 0:
-                return True
-            else:
-                return False
-        else:
-            return True
-    else:
-       return False
+    return (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0))
 
 days=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
 
@@ -30,4 +21,4 @@ def main(year , dayg , yearc):          #Enter the given year(int) , first day o
     return(days[n%7])
 
 
-print(main(2000,'saturday' , 2010))
+#print(main(2000,'saturday' , 2010))
