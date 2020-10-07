@@ -1,5 +1,5 @@
 #Contributed by JDeep
-
+#Time Complexity = O(1) . Constant time
 from math import ceil , floor
 def find_multiples(x,y,p):
     lw = floor(x/p) +1
