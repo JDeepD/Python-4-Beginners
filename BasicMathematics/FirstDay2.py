@@ -22,4 +22,3 @@ def find(i , d ,f ):        #i = Initial Day , d = first day of initial day , f 
 
     return(day)
 
-print(find(2000,'sat',2400))

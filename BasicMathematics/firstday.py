@@ -20,5 +20,3 @@ def main(year , dayg , yearc):          #Enter the given year(int) , first day o
     n+=diff%7
     return(days[n%7])
 
-
-#print(main(2000,'saturday' , 2010))
