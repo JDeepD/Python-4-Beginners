@@ -20,3 +20,8 @@ def main(year , dayg , yearc):          #Enter the given year(int) , first day o
     n+=diff%7
     return(days[n%7])
 
+i = int(input("Enter initial Year  "))
+d = input(f"Enter first day of {i}  ")
+f = int(input("Enter the Year whose first day is needed  "))
+
+print(f"The first day of {i} is" , main(i,d,f))
