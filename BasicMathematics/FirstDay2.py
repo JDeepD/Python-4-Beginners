@@ -22,3 +22,6 @@ def find(i , d ,f ):        #i = Initial Day , d = first day of initial day , f 
 
     return(day)
 
+i = int(input("Enter initial Year  "))
+d = input(f"Enter first day of {i}  ")
+f = int(input("Enter the Year whose first day is needed  "))
