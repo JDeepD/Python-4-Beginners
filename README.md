@@ -4,7 +4,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![PyPI implementation](https://img.shields.io/pypi/implementation/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
-### 1. List comprehensions
+### 1. List comprehensions [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 * These are probably the most useful yet under rated features of python. They help you populate a list from  `loops` with optional `conditionals`
 ##### Syntax :
@@ -109,7 +109,7 @@ And thus we get pretty neatly the required arguments along with their keys.
 
 #### Sidenotes : `**kwargs` are taken in as dictionaries. So many dictionary functions like `dict.items()` work with `kwargs` too.
 
-### 3. Data Structures : Something that stores something more than mere data !
+### 3. Data Structures : Something that stores something more than mere data ! [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 ##### When we talk about data structures , what comes into out mind are lists , tuples  , dictionaries etc. And we think that these are meant to store only abstract values like : integers, strings , booleans , etc. But they can store function calls too ! 
 
