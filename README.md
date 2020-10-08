@@ -124,9 +124,9 @@ def cube(n):
 def quad(n):
     print(n**4)
 
- func_dic = {           #Remember not to give function calls in parenthesis. Otherwise , it would throw error. 
+ func_dic = {           #Remember not to give function calls in parenthesis or quotes. Otherwise , it would throw error. 
 'square' : sqr,
-'cube' : cub,
+'cube' : cube,
 'quadrapule' : quad 
 }
 
