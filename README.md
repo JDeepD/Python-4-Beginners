@@ -1,5 +1,5 @@
 ## Welcome to Python4Beginners.This repository will have codes on Homework problems in computer science. It will mainly be based on Python 3.6+.
-
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 ## How to become a better Pythonista : A handy documentation of python features
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![PyPI implementation](https://img.shields.io/pypi/implementation/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
@@ -24,7 +24,7 @@ print(lst)
 #Output : [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 
  ```
-
+ --------------------------
 ### 2. Taking an unlimited number of parameters : Enters `*args` and `**kwargs` [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [Official Documentation](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments)
 #### A bit of background : `*args` and `**kwargs` basically stands for Arguments and Keyword Arguments respectively.
@@ -40,7 +40,7 @@ def sqr(n):
 ```
 While this function works , it can only take one parameter at one time.
 Example :
-```python3
+```python3--
 >>>sqr(3)
 >>>9
 ```
@@ -108,7 +108,7 @@ Nationality India
 And thus we get pretty neatly the required arguments along with their keys.
 
 #### Sidenotes : `**kwargs` are taken in as dictionaries. So many dictionary functions like `dict.items()` work with `kwargs` too.
-
+----------------------------------
 ### 3. Data Structures : Something that stores something more than mere data ! [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 ##### When we talk about data structures , what comes into out mind are lists , tuples  , dictionaries etc. And we think that these are meant to store only abstract values like : integers, strings , booleans , etc. But they can store function calls too ! 
@@ -162,6 +162,87 @@ func_ls = [sqr , cube , quad]
 >>>func_ls[2](2)
 16
 ```
+-----------------------------------
+### 4. Python String Formatting [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
+##### Sometimes , when formatting strings , a minor mistake like a missing `,` (comma) or `"` can cause the entire script to break and at times , its very difficult when implementing such string formats in a big project.
+
+#### i) Newbie Method (Sometimes it is the best method to use when other methods just make the code longer)
+
+```python3
+i = 10
+k = 20
+r = 30
+st = "i is equal to" + str(i) + "k is equal to" + str(k) + "r is equal to" + str(r)
+print(st)
+```
+```python3
+>>>i is equal to 10 k is equal to 20 r is equal to 30
+```
+#### ii) Format Method (Its a good way to format strings too. The best thing about this is that its supported in python 2.6+ also)
+
+```python3
+i = 10
+k = 20
+r = 30
+st = "i is equal to %s k is equal to %s r is equal to %s".format(i,k,r)
+print(st)
+```
+```python3
+>>>i is equal to 10 k is equal to 20 r is equal to 30
+```
+#### ii) Python 3.6+ String Interpolation (You will get addicted to it once you use it)
+
+```python3
+i = 10
+k = 20
+r = 30
+st = f"i is equal to {i} k is equal to {k} r is equal to {r}"    
+
+#Notice the `f` before the string. It tells the python to replace everything inside `{}` with user defined variables 
+print(st)
+```
+```python3
+>>>i is equal to 10 k is equal to 20 r is equal to 30
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
