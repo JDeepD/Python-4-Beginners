@@ -1,3 +1,5 @@
+#Contributed By Mastermind 
+
 import math
 def pascal(n):
     if n==1:
