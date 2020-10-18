@@ -6,10 +6,9 @@ We will be using Recursion to find the n'th fibonacci number
 # Naive approach 
 
 def fib(n):
-    if n ==1:
+    if n ==1 or n==2:
         return(1)
-    elif n == 2:
-        return(1)
+    
     elif n>2 :
         return(fib(n-1) + fib(n-2))
 
@@ -31,10 +30,7 @@ cache = {} # This is our cache dictionary
 def fibo(n):
     if n in cache:
         return(cache[n])
-    if n == 1:
-        value = 1
-
-    elif n == 2:
+    if n == 1 or n==2:
         value = 1
 
     elif n>2 :
