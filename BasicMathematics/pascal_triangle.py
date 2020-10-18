@@ -5,7 +5,7 @@ def col(n):
 	if n==1:
 		return 1
 	else:
-		return n+1	
+		return n+1
 row=int(input("rows:  "))
 for i in range(1, row+1):
 	print(end= " "*(row-i))
