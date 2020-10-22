@@ -4,4 +4,4 @@
 2. No PRs containing modified pre existing files will be accepted.
 3. No `.md` or `.txt` files will be accepted.
 4. It is recommended that you put your file in one of  the pre existing folders of the repository. You can also make your own folder if you think your code doesn't falls in any of the folders.
-
+5.To distinguish your code from a pre existing code , you may write your credits inside the file as comment. But donot name the file with your credits.
