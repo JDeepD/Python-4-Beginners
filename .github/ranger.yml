@@ -1,0 +1,23 @@
+default:
+  close:
+    # $DELAY will be replaced with '7 days'
+    comment: '⚠️ This has been marked to be closed in $DELAY.'
+    delay: '7 days'
+
+labels:
+  duplicate:
+    action: close
+    delay: 15s
+    comment: "Duplicate issue created! Closing in $DELAY . . ."
+  invalid: close # use defaults for comment and delay time
+  stale: 
+    action: close
+    delay: 7 days
+    comment: false # don't comment anything
+  'merge when passing': merge
+  approved: 
+    action: merge
+  'new contributor':
+    action: comment
+    delay: 5s
+	  message: "Thanks for making your first contribution! :slightly_smiling_face:"
