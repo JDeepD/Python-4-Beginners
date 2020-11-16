@@ -1,5 +1,5 @@
 ## Welcome to Python4Beginners.This repository will have codes on Homework problems in computer science. It will mainly be based on Python 3.6+.
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Nova-Striker/Python-4-Beginners/blob/master/LICENSE)
 ## How to become a better Pythonista : A handy documentation of python features
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![PyPI implementation](https://img.shields.io/pypi/implementation/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
