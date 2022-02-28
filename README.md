@@ -10,7 +10,7 @@
 
 ## How to become a better Pythonista : A handy documentation of python features
 
-### 1. List comprehensions 
+##### 1. List comprehensions 
 
 * These are probably the most useful yet under rated features of python. They help you populate a list from  `loops` with optional `conditionals`
 ##### Syntax :
